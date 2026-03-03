@@ -8,25 +8,7 @@
 npx clommit
 ```
 
-```
-$ clommit
-
-  ~1.1k tokens | ~$0.0003 | haiku
-  Proceed? (Y/n) y
-
-  feat(cli): scaffold project with core modules
-
-  - Implement Claude API client using direct HTTP fetch,
-    avoiding SDK dependency for minimal footprint
-  - Add cost estimation engine with per-model pricing
-    and character-based token heuristic
-  - Create interactive config wizard with ~/.clommit storage
-  - Wire up commander CLI with dry-run, cost, and budget flags
-
-  $0.0004 (1,247 in / 43 out | haiku)
-
-  Commit? (Y/n/e to edit)
-```
+![clommit demo](./assets/demo.gif)
 
 ---
 
