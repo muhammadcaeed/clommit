@@ -1,0 +1,51 @@
+{
+  "name": "clommit",
+  "version": "0.1.0",
+  "description": "AI commit messages powered by Claude. Cost-transparent, lightweight, zero bloat.",
+  "author": "Muhammad Saeed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadcaeed/clommit.git"
+  },
+  "homepage": "https://github.com/muhammadcaeed/clommit#readme",
+  "bugs": {
+    "url": "https://github.com/muhammadcaeed/clommit/issues"
+  },
+  "bin": {
+    "clommit": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "ai",
+    "claude",
+    "anthropic",
+    "conventional-commits",
+    "cli"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "chalk": "5.4.1",
+    "commander": "13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.9",
+    "tsup": "8.4.0",
+    "typescript": "5.7.3",
+    "vitest": "^4.0.18"
+  }
+}
