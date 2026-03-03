@@ -24,11 +24,18 @@
   "keywords": [
     "git",
     "commit",
+    "commit-message",
     "ai",
     "claude",
     "anthropic",
     "conventional-commits",
-    "cli"
+    "cli",
+    "developer-tools",
+    "haiku",
+    "sonnet",
+    "cost-transparent",
+    "git-commit",
+    "ai-commit"
   ],
   "license": "MIT",
   "type": "module",
@@ -36,7 +43,9 @@
     "node": ">=18.0.0"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md",
+    "LICENSE"
   ],
   "dependencies": {
     "chalk": "5.4.1",
